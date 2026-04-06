@@ -56,7 +56,7 @@
   <meta name="citation_author" content="Smith, Brian A.">
   <meta name="citation_author" content="Yan, Yukang">
   <meta name="citation_publication_date" content="2026">
-  <meta name="citation_conference_title" content="CHI 2026 Extended Abstracts">
+  <meta name="citation_conference_title" content="CHI 2026 Poster Track">
   
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
@@ -262,7 +262,7 @@
           <img src="static/images/2_Problem.png" alt="Figure 2" style="max-width: 100%; height: auto;">
         </figure>
         <p class="content" style="margin-top: 1.5rem;">
-          In scenes with lots of dialogue, there is little opportunity to insert audio descriptions (AD). Consequently, BLV viewers often miss crucial visual information, such as characters’ actions and movements. It is not yet known how to convey characters' actions during dialogue.
+          In scenes with lots of dialogue, there is little opportunity to insert audio descriptions (AD). Consequently, BLV viewers often miss crucial visual information, such as characters’ actions and movements.
         </p>
       </div>
     </div>
@@ -279,7 +279,7 @@
           <img src="static/images/3_Walkthrough.png" alt="Figure 3" style="max-width: 100%; height: auto;">
         </figure>
         <p class="content" style="margin-top: 1.5rem;">
-          Sonic Stage conveys essential visual information alongside dialogue using three auditory techniques: spatialized dialogue, diegetic sound, and interactive descriptions.
+          Sonic Stage conveys essential visual information during dialogue using three auditory techniques: spatialized dialogue, diegetic sound, and interactive descriptions. These techniques enable BLV viewers to perceive on-screen actions within an immersive auditory experience.
         </p>
       </div>
     </div>
@@ -291,12 +291,12 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Sonic Stage's Automated Audio Spatialization Pipeline</h2>
+        <h2 class="title is-3">Sonic Stage's Audio Spatialization Pipeline</h2>
         <figure class="image">
           <img src="static/images/4_Pipeline.png" alt="Figure 4" style="max-width: 100%; height: auto;">
         </figure>
         <p class="content" style="margin-top: 1.5rem;">
-          Sonic Stage constructs a coherent spatial soundscape in three stages: (A) selecting frames with high spatial and motion information; (B) reconstructing 3D point clouds from sampled frames to recover character trajectories; and (C) mapping these trajectories onto an optimized soundscape to enhance spatial distinction and model natural roll-off.
+          To create a coherent auditory experience across camera changes, Sonic Stage reconstructs a 3D scene from dialogue videos and renders all auditory cues within a shared spatial soundscape. Its pipeline consists of three stages: (A) frame sampling, (B) scene reconstruction, and (C) soundscape optimization.
         </p>
       </div>
     </div>
@@ -308,17 +308,34 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Application Scenarios</h2>
+        <h2 class="title is-3">Technical Evaluation with Diverse Video Types</h2>
         <figure class="image">
           <img src="static/images/5_Video_Gallery.png" alt="Figure 5" style="max-width: 100%; height: auto;">
         </figure>
         <p class="content" style="margin-top: 1.5rem;">
-          Sonic Stage's pipeline can be applied to various dialogue videos, including TV shows, movies, and stage performances.
+          We conducted a technical evaluation using diverse videos with varied shot compositions (e.g., close-ups to extreme long shots), character movements (e.g., rapid walking), and lighting conditions (e.g., low-light scenes). The results showed that Sonic Stage’s pipeline achieved an overall accuracy of 91.9%.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Image Section 6 -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">User Evaluation with BLV Viewers</h2>
+        <figure class="image">
+          <img src="static/images/6_Evaluation.png" alt="Figure 6" style="max-width: 100%; height: auto;">
+        </figure>
+        <p class="content" style="margin-top: 1.5rem;">
+          In a user study with 12 BLV viewers, Sonic Stage significantly improved video comprehension, spatial presence, and narrative engagement compared to SPICA (CHI 2024), the state-of-the-art method for accessible video exploration.
         </p>
       </div>
     </div>
   </div>
 </section>
+
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
