@@ -186,8 +186,27 @@
                               <a href="https://rochester-bear-lab.github.io/yukang" target="_blank">Yukang Yan</a><sup>d</sup></span>
                   </div>
 
+
+                  <div class="column has-text-centered" style="margin-top: 1.5rem;">
+                    <div class="columns is-centered" style="gap: 1rem; flex-wrap: nowrap; overflow-x: auto;">
+                      <div class="column is-narrow" style="flex-shrink: 1; min-width: 0;">
+                        <img src="static/images/logos/1.png" alt="Logo 1" style="height: 60px; max-height: 10vw; object-fit: contain; width: auto;">
+                      </div>
+                      <div class="column is-narrow" style="flex-shrink: 1; min-width: 0;">
+                        <img src="static/images/logos/2.png" alt="Logo 2" style="height: 60px; max-height: 10vw; object-fit: contain; width: auto;">
+                      </div>
+                      <div class="column is-narrow" style="flex-shrink: 1; min-width: 0;">
+                        <img src="static/images/logos/3.png" alt="Logo 3" style="height: 60px; max-height: 10vw; object-fit: contain; width: auto;">
+                      </div>
+                      <div class="column is-narrow" style="flex-shrink: 1; min-width: 0;">
+                        <img src="static/images/logos/4.png" alt="Logo 4" style="height: 60px; max-height: 10vw; object-fit: contain; width: auto;">
+                      </div>
+                    </div>
+                  </div>
+
+
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">The Hong Kong University of Science and Technology<sup>a</sup>, Aalto University<sup>b</sup>, Columbia University<sup>c</sup>, University of Rochester<sup>d</sup> <br>CHI 2026 Extended Abstracts</span>
+                    <span class="author-block">HKUST<sup>a</sup>, Aalto University<sup>b</sup>, Columbia University<sup>c</sup>, University of Rochester<sup>d</sup></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -262,7 +281,7 @@
           <img src="static/images/2_Problem.png" alt="Figure 2" style="max-width: 100%; height: auto;">
         </figure>
         <p class="content" style="margin-top: 1.5rem;">
-          In scenes with lots of dialogue, there is little opportunity to insert audio descriptions (AD). Consequently, BLV viewers often miss crucial visual information, such as characters’ actions and movements.
+          In scenes with lots of dialogue, there is little opportunity to insert audio descriptions (AD). Consequently, blind and low-vision (BLV) viewers often miss crucial visual information, such as characters’ actions, movements, and facial expressions.
         </p>
       </div>
     </div>
@@ -296,7 +315,7 @@
           <img src="static/images/4_Pipeline.png" alt="Figure 4" style="max-width: 100%; height: auto;">
         </figure>
         <p class="content" style="margin-top: 1.5rem;">
-          To create a coherent auditory experience across camera changes, Sonic Stage reconstructs a 3D scene from dialogue videos and renders all auditory cues within a shared spatial soundscape. Its pipeline consists of three stages: (A) frame sampling, (B) scene reconstruction, and (C) soundscape optimization.
+          To create a coherent auditory experience across camera changes, Sonic Stage reconstructs a 3D scene representation from dialogue videos and renders all auditory cues within a shared spatial soundscape. Its pipeline consists of three stages: (A) frame sampling, (B) scene reconstruction, and (C) soundscape optimization.
         </p>
       </div>
     </div>
@@ -313,7 +332,7 @@
           <img src="static/images/5_Video_Gallery.png" alt="Figure 5" style="max-width: 100%; height: auto;">
         </figure>
         <p class="content" style="margin-top: 1.5rem;">
-          We conducted a technical evaluation using diverse videos with varied shot compositions (e.g., close-ups to extreme long shots), character movements (e.g., rapid walking), and lighting conditions (e.g., low-light scenes). The results showed that Sonic Stage’s pipeline achieved an overall accuracy of 91.9%. The pipeline performed well in scenes with distinct background features, fast motion, or sparse views. Errors mainly stemmed from two sources: (1) scarcity of full/medium shots for spatial reconstruction and (2) limited feature points for multi-view alignment in dark or blurred backgrounds.
+          Sonic Stage’s pipeline achieved 91.9% overall accuracy in character trajectory reconstruction across a diverse video set. It performed well in scenes with distinct backgrounds, even under fast motion and sparse views. The remaining errors mainly arise from two issues: (1) too few full or medium shots for robust spatial reconstruction, and (2) insufficient feature points for multi-view alignment.
       </div>
     </div>
   </div>
@@ -329,14 +348,133 @@
           <img src="static/images/6_Evaluation.png" alt="Figure 6" style="max-width: 100%; height: auto;">
         </figure>
         <p class="content" style="margin-top: 1.5rem;">
-          In a user study with 12 BLV viewers, Sonic Stage significantly improved video comprehension, spatial presence, and narrative engagement compared to SPICA (CHI 2024), the state-of-the-art method for accessible video exploration.
+          In a user study with 12 BLV viewers, Sonic Stage significantly improved video comprehension, spatial presence, and narrative engagement compared to a baseline modeled after SPICA, the state-of-the-art method for accessible video exploration.
         </p>
       </div>
     </div>
   </div>
 </section>
 
-
+<!-- Image Section 7 -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Opportunities Across Diverse Video Genres</h2>
+        <figure class="image">
+          <img src="static/images/7_Extension.png" alt="Figure 7" style="max-width: 100%; height: auto;">
+        </figure>
+        <p class="content" style="margin-top: 1.5rem;">
+          Sonic Stage’s techniques could be extended to diverse video genres, including sketch comedy, opera, dance, and documentary. We hope this work inspires future research on immersive, interactive audio representations that improve video accessibility for blind audiences.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Video Gallery Section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video Gallery</h2>
+        <!-- Row 1 -->
+        <div class="columns is-multiline">
+          <div class="column is-3">
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID_1" target="_blank">
+              <div class="video-thumbnail" style="background-color: #f0f0f0; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; position: relative;">
+                <img src="https://img.youtube.com/vi/VIDEO_ID_1/maxresdefault.jpg" alt="Video 1" style="width: 100%; height: 100%; object-fit: cover;">
+                <div style="position: absolute; background-color: rgba(0,0,0,0.6); color: white; padding: 8px 12px; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 24px;">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <p style="margin-top: 0.5rem; font-size: 0.9rem;">Video 1</p>
+            </a>
+          </div>
+          <div class="column is-3">
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID_2" target="_blank">
+              <div class="video-thumbnail" style="background-color: #f0f0f0; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; position: relative;">
+                <img src="https://img.youtube.com/vi/VIDEO_ID_2/maxresdefault.jpg" alt="Video 2" style="width: 100%; height: 100%; object-fit: cover;">
+                <div style="position: absolute; background-color: rgba(0,0,0,0.6); color: white; padding: 8px 12px; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 24px;">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <p style="margin-top: 0.5rem; font-size: 0.9rem;">Video 2</p>
+            </a>
+          </div>
+          <div class="column is-3">
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID_3" target="_blank">
+              <div class="video-thumbnail" style="background-color: #f0f0f0; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; position: relative;">
+                <img src="https://img.youtube.com/vi/VIDEO_ID_3/maxresdefault.jpg" alt="Video 3" style="width: 100%; height: 100%; object-fit: cover;">
+                <div style="position: absolute; background-color: rgba(0,0,0,0.6); color: white; padding: 8px 12px; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 24px;">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <p style="margin-top: 0.5rem; font-size: 0.9rem;">Video 3</p>
+            </a>
+          </div>
+          <div class="column is-3">
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID_4" target="_blank">
+              <div class="video-thumbnail" style="background-color: #f0f0f0; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; position: relative;">
+                <img src="https://img.youtube.com/vi/VIDEO_ID_4/maxresdefault.jpg" alt="Video 4" style="width: 100%; height: 100%; object-fit: cover;">
+                <div style="position: absolute; background-color: rgba(0,0,0,0.6); color: white; padding: 8px 12px; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 24px;">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <p style="margin-top: 0.5rem; font-size: 0.9rem;">Video 4</p>
+            </a>
+          </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="columns is-multiline">
+          <div class="column is-3">
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID_5" target="_blank">
+              <div class="video-thumbnail" style="background-color: #f0f0f0; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; position: relative;">
+                <img src="https://img.youtube.com/vi/VIDEO_ID_5/maxresdefault.jpg" alt="Video 5" style="width: 100%; height: 100%; object-fit: cover;">
+                <div style="position: absolute; background-color: rgba(0,0,0,0.6); color: white; padding: 8px 12px; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 24px;">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <p style="margin-top: 0.5rem; font-size: 0.9rem;">Video 5</p>
+            </a>
+          </div>
+          <div class="column is-3">
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID_6" target="_blank">
+              <div class="video-thumbnail" style="background-color: #f0f0f0; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; position: relative;">
+                <img src="https://img.youtube.com/vi/VIDEO_ID_6/maxresdefault.jpg" alt="Video 6" style="width: 100%; height: 100%; object-fit: cover;">
+                <div style="position: absolute; background-color: rgba(0,0,0,0.6); color: white; padding: 8px 12px; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 24px;">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <p style="margin-top: 0.5rem; font-size: 0.9rem;">Video 6</p>
+            </a>
+          </div>
+          <div class="column is-3">
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID_7" target="_blank">
+              <div class="video-thumbnail" style="background-color: #f0f0f0; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; position: relative;">
+                <img src="https://img.youtube.com/vi/VIDEO_ID_7/maxresdefault.jpg" alt="Video 7" style="width: 100%; height: 100%; object-fit: cover;">
+                <div style="position: absolute; background-color: rgba(0,0,0,0.6); color: white; padding: 8px 12px; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 24px;">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <p style="margin-top: 0.5rem; font-size: 0.9rem;">Video 7</p>
+            </a>
+          </div>
+          <div class="column is-3">
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID_8" target="_blank">
+              <div class="video-thumbnail" style="background-color: #f0f0f0; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; position: relative;">
+                <img src="https://img.youtube.com/vi/VIDEO_ID_8/maxresdefault.jpg" alt="Video 8" style="width: 100%; height: 100%; object-fit: cover;">
+                <div style="position: absolute; background-color: rgba(0,0,0,0.6); color: white; padding: 8px 12px; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 24px;">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <p style="margin-top: 0.5rem; font-size: 0.9rem;">Video 8</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
